@@ -1,0 +1,18 @@
+<div>
+    <label>Nome
+        <input [(ngModel)]="coffee.name" placeholder="Nome do café">
+    </label>
+    <label>Descrição
+        <input [(ngModel)]="coffee.description"  placeholder="Descrição do café">
+    </label>
+    <label>Preço
+        <input [(ngModel)]="coffee.price" placeholder="Preço do café">
+    </label>
+    <label>Tipo
+        <input [(ngModel)]="coffee.type" placeholder="Tipo do café">
+    </label>
+    <label>Quantidade
+        <input [(ngModel)]="coffee.qtd" placeholder="Quantidade em estoque do café">
+    </label>
+    <button (click)="cadastrar()">Cadastrar café</button>
+</div>

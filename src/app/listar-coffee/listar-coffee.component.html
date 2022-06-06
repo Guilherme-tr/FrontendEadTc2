@@ -1,0 +1,20 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Descrição</td>
+                <td>Estoque</td>
+                <td>Preço por unidade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let c of listaCoffee">
+                <td>{{c.name}}</td>
+                <td>{{c.description}}</td>
+                <td>{{c.qtd}}</td>
+                <td>{{c.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
